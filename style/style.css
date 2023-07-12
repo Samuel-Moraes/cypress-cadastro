@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+  #barra_menu {
+    background-color: gray;
+  }
+
+  #barra_menu li {
+    display: inline;
+  }
+
+  #barra_menu li a {
+    color: #000;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    border: 2px solid #696969;
+  }
+
+  #barra_menu li a:hover {
+    background-color: #696969;
+  }
+
+  #label_cadastro {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #div_form {
+    display: flex;
+  }
+
+  .formulario_cadastro_generico {
+    width: 50%;
+    text-align: center;
+    background-color: #696969;
+    border: solid black 1px;
+    margin: 1px;
+  }
+
+  .input_generico_cadastro {
+    width: 550px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .submit_cadastro {
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+  }
+
+  .input_generico_cadastro {
+    width: 550px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #div_body_login {
+    display: flex;
+    justify-content: center;
+  }
+
+  #corpo_login {
+    background-color: #696969;
+    width: 500px;
+    height: 600px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 1px;
+  }
+
+  #id_form_login {
+    text-align: center;
+  }
+
+  #h1_tela_login {
+    text-align: center;
+  }
+
+  .class_label_login {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .class_input_login {
+    width: 450px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .class_div_login {
+    padding: 20px;
+  }
+
+  .class_barra_recursos_login {
+    padding-right: 10px;
+    text-align: right;
+    padding: 10px;
+  }

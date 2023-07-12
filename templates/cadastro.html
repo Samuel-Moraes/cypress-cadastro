@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pagina Cadastro</title>
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+  <script src="../script/script.js"></script>
+
+    <nav id="barra_menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="cadastro.html">Cadastro</a>
+          </li>
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+
+    <div id="div_form">
+
+    <form class="formulario_cadastro_generico" onsubmit="valida_cadastro_professor()">
+
+        <label id="label_cadastro" for="nome">Nome do Professor:</label>
+        <br/>
+        <input class="input_generico_cadastro" type="text" id="id_nome_professor" name="nome_professor"
+          placeholder="Preencha o Nome do Professor" autocomplete="off" required />
+        <br/>
+
+        <label id="label_cadastro" for="email">E-mail do Professor:</label>
+        <br/>
+        <input class="input_generico_cadastro" type="email" id="id_email_professor" name="email_professor"
+          placeholder="Preencha o E-Mail do Professor"required />
+        <br/>
+
+        <label id="label_cadastro" for="senha">Senha do Professor:</label>
+        <br/>
+        <input class="input_generico_cadastro" type="password" id="id_senha_professor" name="senha" maxlength="10"
+          placeholder="Preencha a Senha do Professor" autocomplete="off" required />
+        <br/>
+        <br/>
+
+        <input class="submit_cadastro" id="submit_cadastro_professor" type="submit" value="Cadastrar" />
+    </form>
+
+    <form class="formulario_cadastro_generico" onsubmit="valida_cadastro_aluno()">
+        <label id="label_cadastro" for="nome">Nome do Aluno:</label>
+        <br/>
+        <input class="input_generico_cadastro" type="text" id="id_nome_aluno" name="nome_aluno"
+          placeholder="Preencha o Nome do Aluno" autocomplete="off" required />
+        <br/>
+        <label id="label_cadastro" for="email">E-mail do Aluno:</label>
+        <br/>
+        <input class="input_generico_cadastro" type="email" id="id_email_aluno" name="email_aluno"
+          placeholder="Preencha o E-Mail do Aluno"required />
+        <br/>
+
+        <label id="label_cadastro" for="senha">Senha do Aluno:</label>
+        <br/>
+        <input class="input_generico_cadastro" type="password" id="id_senha_aluno" name="senha" maxlength="10"
+          placeholder="Preencha a Senha do Aluno" autocomplete="off" required />
+        <br/>
+        <br/>
+
+        <input class="submit_cadastro" id="submit_cadastro_aluno" type="submit" value="Cadastrar" />
+    </form>
+</div>
+
+</body>
+
+
+</html>
